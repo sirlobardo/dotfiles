@@ -5,16 +5,16 @@ Este repositório contém minhas configurações personalizadas para Bash, Tmux 
 ## 📋 Conteúdo
 
 ### 🐚 Bash (`.bashrc`)
-[cite_start]Configuração robusta utilizando o framework **Oh My Bash**[cite: 1, 3].
-* [cite_start]**Tema:** Utiliza o tema `agnoster`[cite: 1].
-* [cite_start]**Integração Visual:** Sincronização automática de cores com o **Pywal** (sequências de terminal e TTY).
+Configuração robusta utilizando o framework **Oh My Bash**.
+* **Tema:** Utiliza o tema `agnoster`.
+* **Integração Visual:** Sincronização automática de cores com o **Pywal** (sequências de terminal e TTY).
 * **Automação de Shell:**
-    * [cite_start]Função inteligente `path_add` para evitar duplicatas no seu `$PATH`[cite: 1, 2].
-    * [cite_start]Auto-attach automático do **Tmux** (desabilitado quando detecta que está no VS Code)[cite: 2, 3].
+    * Função inteligente `path_add` para evitar duplicatas no seu `$PATH`.
+    * Auto-attach automático do **Tmux** (desabilitado quando detecta que está no VS Code).
 * **Ferramentas Integradas:**
-    * [cite_start]**Python:** Inicialização completa do `pyenv` e `virtualenv`[cite: 5, 6].
-    * [cite_start]**Perl:** Configuração de `local::lib` apontando para `~/perl5`.
-    * [cite_start]**Binários:** Inclusão automática de caminhos para LM Studio e local bins[cite: 4, 5].
+    * **Python:** Inicialização completa do `pyenv` e `virtualenv`.
+    * **Perl:** Configuração de `local::lib` apontando para `~/perl5`.
+    * **Binários:** Inclusão automática de caminhos para LM Studio e local bins.
 
 ### 🖥️ Tmux (`.tmux.conf`)
 Terminal multiplexer configurado para persistência e facilidade de uso.
@@ -24,7 +24,7 @@ Terminal multiplexer configurado para persistência e facilidade de uso.
 * **Modo Vi:** Navegação e seleção de texto utilizando as keys do Vim.
 
 ### 📝 Vim (`.vimrc`)
-* [cite_start]Configuração essencial com ativação de numeração de linhas (`set number`)[cite: 7].
+* Configuração essencial com ativação de numeração de linhas (`set number`).
 
 ---
 
@@ -50,9 +50,9 @@ Terminal multiplexer configurado para persistência e facilidade de uso.
 
 ## 🛠️ Requisitos Técnicos
 Para o funcionamento total destas configurações, recomenda-se ter instalado:
-* [cite_start]`pyenv` e `pyenv-virtualenv`[cite: 5, 6].
+* `pyenv` e `pyenv-virtualenv`.
 * `xclip` (para o clipboard do Tmux).
-* [cite_start]`pywal` (para as cores dinâmicas).
-* [cite_start]`nano` (definido como editor padrão no shell)[cite: 3].
+* `pywal` (para as cores dinâmicas).
+* `nano` (definido como editor padrão no shell).
 
 ---
